@@ -49,12 +49,12 @@ Windows:
                $ geth --datadir .\node3\ init .\ethereumnet.json
                $ geth --datadir .\node4\ init .\ethereumnet.json  
 	          
-               $ miner.start()
+               
         
-	   $ bootnode -genkey boot.key 	и копируем в папку bnode
+	       $ bootnode -genkey boot.key 	и копируем в папку bnode
 
                
-              
+               $ miner.start()
                
-В нашей папке создались
+
     
